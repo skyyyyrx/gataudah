@@ -15,8 +15,8 @@ print(f"[+] Running shard {shard}")
 print(f"[+] Selenium version: {selenium.__version__}")
 
 # === Telegram Bot Setup (PAKAI ENV BIAR AMAN) ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("8163512363:AAH7dF8aDr-NHYhF9JhZD62-zHSQ8Naz7uY")
+CHAT_ID = os.getenv("7118252117")
 SEND_EVERY = 5
 
 # === Chrome Options (Stable for GitHub Runner) ===
